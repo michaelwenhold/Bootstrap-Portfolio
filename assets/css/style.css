@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/connectwork.png");
+}
+
+.navbar {
+    background-color: #ffffff;
+    height: 90px;
+    border-bottom: 6px solid #cccccc;
+    margin-bottom: 50px;
+}
+
+.navbar-nav {
+    margin-right: 218px;
+}
+
+.navbar-brand {
+    width: 335px;
+    margin-left: 224px;
+    padding: 30px 30px 25px 30px;
+    color: white;
+    background-color:#4aaaa5;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-item {
+    display: block;
+    padding: 8px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 10px;
+}
+
+.container {
+    width: 960px;
+    height: 500px;
+    background-color: #ffffff;
+    margin-bottom: 125px;
+}
+
+.about {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 4px solid #cccccc;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    line-height: 80px;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    *zoom: 1;
+}
