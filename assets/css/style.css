@@ -81,12 +81,10 @@ body {
     margin-bottom: 20px;
 }
 
-.footer {
-    height: 60px;
+.container-fluid {
     background-color: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 6px solid #4aaaa5;
     text-align: center;
-    line-height: 80px;
 }
 
 .group:before,
