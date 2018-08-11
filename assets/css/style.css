@@ -17,7 +17,13 @@ body {
 
 .navbar-nav {
     margin-right: 218px;
+    flex-direction: row;
+    background-color: #ffffff;
 }
+
+.navbar-nav > li >a{
+    color: #666666;
+  }
 
 .navbar-brand {
     width: 335px;
@@ -60,6 +66,7 @@ body {
 .image1 {
     margin-top: 10px;
     margin-left: 10px;
+    width: 100%
 }
 
 .card-img-top {
@@ -70,8 +77,20 @@ body {
     background-color: #666666;
 }
 
+.label {
+    height: 50px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5; 
+    position: absolute;
+    top: 150px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
 .row {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .btn-primary {
